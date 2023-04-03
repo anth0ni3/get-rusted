@@ -4,7 +4,7 @@ fn main() {
 
 fn last_char(string: String) -> char {
     if string.is_empty() {
-        return 'c';
+        return '😩';
     }
 
     string.chars().next_back().unwrap()
